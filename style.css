@@ -1,0 +1,36 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    background: #f05454;
+    color: #30475e;
+}
+ a{
+   color: rgb(0, 19, 36);
+}
+ .body{
+   display: flex;
+   align-items: flex-start;
+   background: rgb(119, 118, 118);
+   color: black;
+ }
+ a:link{
+   color: blue;
+ }
+ a:visited{
+   color: blueviolet;
+ }
+ .menu{
+   border: solid;
+ }
+ body{
+  background-color: #808080;
+}
+.item:hover p{
+  opacity: 1;
+}
+.item:hover img{
+  opacity: 0.33;
+}
+.item:hover img{
+  transform: scale(1.4);
+}
